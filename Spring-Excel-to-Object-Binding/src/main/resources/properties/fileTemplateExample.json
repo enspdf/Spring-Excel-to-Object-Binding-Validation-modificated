@@ -1,0 +1,25 @@
+{
+  "templateId": 2,
+  "templateName": "EXAMPLE",
+  "dbSchemaName": "",
+  "dbTableName": "",
+  "validator": "org.prabu.spring.excel.objectbinding.validator.ExampleValidator",
+  "columnTemplates": [
+    {
+      "id": 1,
+      "pos": 0,
+      "templateName": "key",
+      "dbColumnName": "KEY",
+      "beanColumnName": "key",
+      "type": "VARCHAR"
+    },
+    {
+      "id": 2,
+      "pos": 1,
+      "templateName": "Value",
+      "dbColumnName": "VALUE",
+      "beanColumnName": "value",
+      "type": "VARCHAR"
+    }
+  ]
+}
